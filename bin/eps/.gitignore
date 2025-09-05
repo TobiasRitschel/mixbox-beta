@@ -1,0 +1,10 @@
+# Data files
+*.mat
+
+# Figures
+*.fig
+*.png
+*.eps
+
+# Auxiliary files
+*.asv
