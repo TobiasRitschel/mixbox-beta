@@ -27,16 +27,10 @@ function load_library()
 % Tobias K. S. Ritschel
 
 % Let the user know that the library is being loaded
-fprintf('Loading library routines .. ');
+fprintf('Loading mixbox-beta .. ');
 
 % Add library
 addpath(genpath(fullfile(pwd, './src')));
-
-% Let the user know that the library is done being loaded
-fprintf('Done\n');
-
-% Let the user know that the library is being loaded
-fprintf('Loading utility routines .. ');
 
 % Add library
 addpath(genpath(fullfile(pwd, './util')));
